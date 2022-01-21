@@ -41,7 +41,7 @@
                 >
                   {{ empresa.nombre }}
                 </option></select
-              ><span>{{ errors[0] }}</span>
+              ><span class="text-danger">{{ errors[0] }}</span>
               <br />
             </validation-provider>
           </div>
@@ -62,7 +62,7 @@
                 minLength="10"
                 maxLength="50"
                 required
-              /><span>{{ errors[0] }}</span
+              /><span class="text-danger">{{ errors[0] }}</span
               ><br />
             </validation-provider>
           </div>
@@ -78,7 +78,7 @@
                 name="newoffer-contrato"
                 v-model="newOffer.contrato"
                 class="form-control"
-              /><span>{{ errors[0] }}</span
+              /><span class="text-danger">{{ errors[0] }}</span
               ><br />
             </validation-provider>
           </div>
@@ -95,7 +95,7 @@
                 v-model="newOffer.contacto"
                 class="form-control"
                 required
-              /><span>{{ errors[0] }}</span
+              /><span class="text-danger">{{ errors[0] }}</span
               ><br />
             </validation-provider>
           </div>
@@ -112,7 +112,7 @@
                 v-model="newOffer.email"
                 class="form-control"
                 required
-              /><span>{{ errors[0] }}</span
+              /><span class="text-danger">{{ errors[0] }}</span
               ><br />
             </validation-provider>
           </div>
